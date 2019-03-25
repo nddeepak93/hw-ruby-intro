@@ -1,0 +1,92 @@
+ec2-user:~/environment/hw-ruby-intro (master) $ cd spec/
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ ls
+part1_spec.rb  part2_spec.rb  part3_spec.rb
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part1_spec.rb
+............
+
+Finished in 0.00918 seconds (files took 0.0865 seconds to load)
+12 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part2_spec.rb
+..........
+
+Finished in 0.00789 seconds (files took 0.08623 seconds to load)
+10 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part3_spec.rb
+............
+
+Finished in 0.00833 seconds (files took 0.08569 seconds to load)
+12 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part3_spec.rb >> "log1.txt"
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+ec2-user:~/environment/hw-ruby-intro (master) $ ls
+Gemfile  Gemfile.lock  lib  README.md  spec
+ec2-user:~/environment/hw-ruby-intro (master) $ cd spec/
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ ls
+part1_spec.rb  part2_spec.rb  part3_spec.rb
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part1_spec.rb
+............
+
+Finished in 0.00918 seconds (files took 0.0865 seconds to load)
+12 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part2_spec.rb                                                                                                                     
+..........
+
+Finished in 0.00789 seconds (files took 0.08623 seconds to load)
+10 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part3_spec.rb                                                                                                                     
+............
+
+Finished in 0.00833 seconds (files took 0.08569 seconds to load)
+12 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part3_spec.rb >> "log1.txt"
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ cd ..
+ec2-user:~/environment/hw-ruby-intro (master) $ cd lib/
+ec2-user:~/environment/hw-ruby-intro/lib (master) $ ls
+ruby_intro.rb
+ec2-user:~/environment/hw-ruby-intro/lib (master) $ git add ruby_intro.rb 
+ec2-user:~/environment/hw-ruby-intro/lib (master) $ git commit
+[master aeffc2a] HW1 Code
+ Committer: EC2 Default User <ec2-user@ip-172-31-45-148.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 50 insertions(+), 3 deletions(-)
+ec2-user:~/environment/hw-ruby-intro/lib (master) $ git push
+Username for 'https://github.com': nddeepak93
+Password for 'https://nddeepak93@github.com': 
+Counting objects: 4, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 955 bytes | 955.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nddeepak93/hw-ruby-intro
+   c270e87..aeffc2a  master -> master
